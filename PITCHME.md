@@ -1,8 +1,8 @@
 ## Gitlab
 
-#### The C/C++ Package Manager for Developers
+#### Construindo aplicações C++ com Gitlab
 
-![conan](assets/img/conan-small.png)
+![gitlab](assets/img/gitlab-logo.png)
 
 ---?image=assets/img/lego-dark-green.png
 @title[About me]
