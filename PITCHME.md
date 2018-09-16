@@ -4,7 +4,7 @@
 
 ![gitlab](assets/img/gitlab-logo.png)
 
----?image=assets/img/lego-dark-green.png
+---?image=assets/img/orange-dark.png
 @title[About me]
 
 @div[left-70]
