@@ -220,9 +220,7 @@ doxygen:
 #### STAGES
 
 [x] **Analysis**
-
 [ ] **Building**
-
 [ ] **Deployment**
 
 ![analysis](assets/img/analysis.png)
