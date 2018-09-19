@@ -164,7 +164,7 @@ clang-tidy:
 @[9-10]
 
 ---?image=assets/img/red.png
-@title[cppcheck - gitlab CI]
+@title[clang tidy - gitlab CI]
 
 # TODO - Video CLANG TIDY
 
