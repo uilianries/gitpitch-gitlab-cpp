@@ -228,12 +228,14 @@ doxygen:
 ---?image=assets/img/purple.png
 
 @div[left-50]
-Building
+#### Building
 * CMake
 * Conan
 * Gcc
 * Clang
+@divend
 
+@div[left-50]
 Testing
 * Catch2
 * Valgrind
