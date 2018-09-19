@@ -227,6 +227,7 @@ doxygen:
 
 ---?image=assets/img/purple.png
 
+@snap[west]
 Building
 * CMake
 * Conan
@@ -237,6 +238,7 @@ Testing
 * Catch2
 * Valgrind
 * gcovr
+@snapend
 
 ---?image=assets/img/purple.png
 
