@@ -44,9 +44,13 @@ Work at **@khomp**
 * Compilar + Test
 * Deploy + Upload
 
----?image=assets/img/lego-dark-red.png
+---?image=assets/img/gitlab-cover.png
 
-### POPULAR C/C++ PROJECTS
+### RISE OF A FOX
+
+![github](assets/img/microsoft-github.png)
+
+Jun 4, 2018
 
 ##### Because you need good libraries
 
