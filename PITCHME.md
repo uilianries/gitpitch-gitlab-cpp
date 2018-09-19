@@ -36,7 +36,7 @@ Work at **@khomp**
 
 #### AGENDA
 
-* A Ascensão da raposa
+* Rise of the Fox
 * Sobre Gitlab
 * Gitlab CI
 * Projeto C++
@@ -46,7 +46,7 @@ Work at **@khomp**
 
 ---?image=assets/img/gitlab-cover.png
 
-### RISE OF A FOX
+### RISE OF THE FOX
 
 ![github](assets/img/microsoft-github.png)
 
@@ -126,7 +126,7 @@ cppcheck:
 ---?image=assets/img/orange-dark.png
 @title[cppcheck - gitlab CI]
 
-# TODO - Video CPPCHECK
+![video-cppcheck](https://youtu.be/KYslVV3-DV4)
 
 ---?image=assets/img/red.png
 #### CLANG TIDY
