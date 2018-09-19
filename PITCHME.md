@@ -168,9 +168,52 @@ clang-tidy:
 
 # TODO - Video CLANG TIDY
 
----?image=assets/img/lego-dark-red.png
+---?image=assets/img/green.png
+#### DOXYGEN
 
-### PACKAGE MANAGERS
+* A documentation generator, a tool for writing software reference documentation
+<br>
+<br>
+```shell
+$ doxygen docs/Doxyfile
+```
+
+---?image=assets/img/green.png
+#### DOXYGEN
+@title[doxygen - gitlab recipe]
+
+.gitlab-ci.yml
+
+```yaml
+doxygen:
+   image: alpine:3.7
+   before_script:
+     - apk update
+     - apk add --no-cache -t .required_apks doxygen=1.8.13-r1 graphviz=2.40.1-r0
+     - mkdir -p build/docs
+   script:
+     - doxygen docs/Doxyfile
+   artifacts:
+     paths:
+       - build/docs/html/
+```
+
+@[1-1]
+@[2-2]
+@[3-6]
+@[7-8]
+@[9-11]
+
+---?image=assets/img/green.png
+@title[doxygen - gitlab CI]
+
+# TODO - Video Doxygen
+
+---?image=assets/img/green.png
+
+#### Doxygen
+
+![doxygen](assets/img/doxygen.png)
 
 ##### How to avoid *externals* in your project
 
