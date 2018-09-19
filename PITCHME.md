@@ -126,7 +126,7 @@ cppcheck:
 ---?image=assets/img/orange-dark.png
 @title[cppcheck - gitlab CI]
 
-<a href="https://asciinema.org/a/143042" target="_blank"><img src="https://asciinema.org/a/143042.png" /></a>
+![Video](https://www.youtube.com/embed/mkiDkkdGGAQ)
 
 ---?image=assets/img/lego-dark-red.png
 
