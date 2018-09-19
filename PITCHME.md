@@ -54,7 +54,7 @@ Jun 4, 2018
 
 ---?image=assets/img/gitlab-background-moving.png
 
----?image=assets/img/lego-dark-blue.png
+---?image=assets/img/purple.png
 @title[A New Project]
 
 Let's start a new C++ project!
@@ -63,26 +63,21 @@ What does it need?
 
 @div[left-50]
 <ul>
-  <li>OpenSSL</li>
-  <li>Qt</li>
-  <li>Boost</li>
-  <li>OpenCV</li>
-  <li>POCO</li>
+  <li>Cppcheck</li>
+  <li>Clang Tidy</li>
+  <li>Doxygen</li>
+  <li>Unit Test (Catch2)</li>
+  <li>Generate .DEB package</li>
 </ul>
 @divend
 
----?image=assets/img/lego-dark-green.png
+---?image=assets/img/dark-orange.png
 
-#### ALL OF THEM NEED TO BE BUILT
+#### CPPCHECK
 
-* Download the source. Build on your machine
-  - It may take several minutes, or even hours
-  - There may be external dependencies
-  - You need to know how to build
+* A static code analysis tool for the C and C++
 
-* Install by system package manager
-  - The version may not be as expected
-  - There may be a patch applied
+`cppcheck *.cpp --verbose --enable=all --inconclusive --language=c++ --error-exitcode=1`
 
 ---?image=assets/img/lego-dark-green.png
 
