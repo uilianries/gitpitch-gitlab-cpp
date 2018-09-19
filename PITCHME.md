@@ -34,6 +34,8 @@ Work at **@khomp**
 ---?image=assets/img/purple.png
 @title[Agenda]
 
+#### AGENDA
+
 * A Ascensão da raposa
 * Sobre Gitlab
 * Gitlab CI
