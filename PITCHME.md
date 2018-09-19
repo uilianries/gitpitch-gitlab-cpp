@@ -82,6 +82,28 @@ What does it need?
 $ cppcheck *.cpp --enable=all --language=c++
 ```
 
+---?image=assets/img/orange-dark.png
+
+#### CPPCHECK
+@title[cppcheck - gitlab]
+
+.gitlab-ci.yml
+
+```yaml
+cppcheck:
+  image: ubuntu:bionic
+  before_script:
+    - apt update
+    - apt install -y --no-install-recommends cppcheck=1.82-1
+    - cppcheck --version
+  script:
+    - cppcheck lib/*.cpp --verbose --enable=all --inconclusive --language=c++ --error-exitcode=1
+```
+
+@[2-2]
+@[3-6]
+@[7-8]
+
 ---?image=assets/img/lego-dark-green.png
 
 #### Build from source? Install from distro?
