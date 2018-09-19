@@ -126,7 +126,7 @@ cppcheck:
 ---?image=assets/img/orange-dark.png
 @title[cppcheck - gitlab CI]
 
-![video-cppcheck](assets/video/cppcheck.mp4)
+![video-cppcheck](https://www.youtube.com/embed/FO595hYhSKo)
 
 ---?image=assets/img/red.png
 #### CLANG TIDY
