@@ -72,8 +72,6 @@ What does it need?
 @divend
 
 ---?image=assets/img/orange-dark.png
-
-#### PROJECT
 @title[Project Structure]
 
 ```
@@ -94,8 +92,6 @@ What does it need?
 └── test
     ├── CMakeLists.txt
     └── test_message.cpp
-
-6 directories, 11 files
 ```
 
 ---?image=assets/img/orange-dark.png
