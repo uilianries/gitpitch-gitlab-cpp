@@ -31,6 +31,17 @@ Work at **@khomp**
 ---?image=assets/img/vaga-khomp.png
 @title[Khomp]
 
+---?image=assets/img/purple.png
+@title[Agenda]
+
+* A Ascensão da raposa
+* Sobre Gitlab
+* Gitlab CI
+* Projeto C++
+* Analisar + Doxygen
+* Compilar + Test
+* Deploy + Upload
+
 ---?image=assets/img/lego-dark-red.png
 
 ### POPULAR C/C++ PROJECTS
