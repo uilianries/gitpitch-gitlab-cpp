@@ -128,6 +128,7 @@ cppcheck:
 
 # TODO - Video CPPCHECK
 
+---?image=assets/img/red.png
 #### CLANG TIDY
 
 * A clang-based C++ “linter” tool
@@ -137,6 +138,7 @@ cppcheck:
 $ clang-tidy test.cpp -checks=-*,clang-analyzer-*
 ```
 
+---?image=assets/img/red.png
 #### CLANG TIDY
 @title[clang tidy - gitlab recipe]
 
@@ -161,7 +163,7 @@ clang-tidy:
 @[6-8]
 @[9-10]
 
----?image=assets/img/orange-dark.png
+---?image=assets/img/red.png
 @title[cppcheck - gitlab CI]
 
 # TODO - Video CLANG TIDY
