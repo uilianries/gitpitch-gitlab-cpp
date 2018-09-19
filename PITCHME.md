@@ -52,7 +52,7 @@ Work at **@khomp**
 
 Jun 4, 2018
 
-##### Because you need good libraries
+---?image=assets/img/gitlab-background-moving.png
 
 ---?image=assets/img/lego-dark-blue.png
 @title[A New Project]
