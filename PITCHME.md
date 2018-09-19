@@ -227,7 +227,7 @@ doxygen:
 
 ---?image=assets/img/purple.png
 
-<!-- .slide: class="left" -->
+@div[left-50]
 Building
 * CMake
 * Conan
@@ -238,6 +238,7 @@ Testing
 * Catch2
 * Valgrind
 * gcovr
+@divend
 
 ---?image=assets/img/purple.png
 
