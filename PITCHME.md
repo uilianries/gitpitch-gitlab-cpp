@@ -126,7 +126,7 @@ cppcheck:
 ---?image=assets/img/orange-dark.png
 @title[cppcheck - gitlab CI]
 
-![Video](https://www.youtube.com/embed/mkiDkkdGGAQ)
+<script src="https://asciinema.org/a/143042.js" id="asciicast-143042" async></script>
 
 ---?image=assets/img/lego-dark-red.png
 
