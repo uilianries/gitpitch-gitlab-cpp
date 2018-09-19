@@ -73,6 +73,33 @@ What does it need?
 
 ---?image=assets/img/orange-dark.png
 
+#### PROJECT
+@title[Project Structure]
+
+```
+├── CMakeLists.txt
+├── cmake-modules
+│   └── CodeCoverage.cmake
+├── conanfile.txt
+├── docs
+│   ├── Doxyfile
+│   └── logo.png
+├── include
+│   └── hello
+│       └── hello.hpp
+├── lib
+│   └── hello.cpp
+├── LICENSE
+├── README.md
+└── test
+    ├── CMakeLists.txt
+    └── test_message.cpp
+
+6 directories, 11 files
+```
+
+---?image=assets/img/orange-dark.png
+
 #### CPPCHECK
 
 * A static code analysis tool for the C and C++
@@ -100,9 +127,12 @@ cppcheck:
     - cppcheck lib/*.cpp --verbose --enable=all --inconclusive --language=c++ --error-exitcode=1
 ```
 
+@[1-1]
 @[2-2]
 @[3-6]
 @[7-8]
+
+
 
 ---?image=assets/img/lego-dark-green.png
 
@@ -224,17 +254,7 @@ Talk is cheap. Show me the code.
 
 ![projects](assets/img/projects.png)
 
----?image=assets/img/lego-dark-green.png
 
-#### CONAN IN ACTION
-@title[Conan in Action - Project Structure]
-
-```
-example
-|   main.cpp
-|   conanfile.txt
-|   CMakeLists.txt
-```
 
 ---?image=assets/img/lego-dark-green.png
 
