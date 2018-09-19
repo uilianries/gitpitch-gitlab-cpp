@@ -241,10 +241,9 @@ Testing
 ---?image=assets/img/purple.png
 
 @div[left-20]
-![cmake](assets/img/cmake.png)
+![cmake](assets/img/cmake.png) **CMake**
 @divend
 @div[right-80]
-**CMake**
 @divend
 * A application for managing the build process of software
 <br>
