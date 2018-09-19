@@ -103,7 +103,7 @@ $ cppcheck *.cpp --enable=all --language=c++
 ---?image=assets/img/orange-dark.png
 
 #### CPPCHECK
-@title[cppcheck - gitlab]
+@title[cppcheck - gitlab recipe]
 
 .gitlab-ci.yml
 
@@ -123,13 +123,10 @@ cppcheck:
 @[3-6]
 @[7-8]
 
+---?image=assets/img/orange-dark.png
+@title[cppcheck - gitlab CI]
 
-
----?image=assets/img/lego-dark-green.png
-
-#### Build from source? Install from distro?
-
-![build-all](assets/gif/good-bad-ugly.gif)
+[![asciicast](https://asciinema.org/a/143042.png)](https://asciinema.org/a/143042)
 
 ---?image=assets/img/lego-dark-red.png
 
