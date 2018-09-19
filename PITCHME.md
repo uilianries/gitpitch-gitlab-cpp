@@ -71,24 +71,19 @@ What does it need?
 </ul>
 @divend
 
----?image=assets/img/orange-dark.png
+---?image=assets/img/purple.png
 @title[Project Structure]
 
 ```
 ├── CMakeLists.txt
-├── cmake-modules
-│   └── CodeCoverage.cmake
 ├── conanfile.txt
 ├── docs
 │   ├── Doxyfile
-│   └── logo.png
 ├── include
 │   └── hello
 │       └── hello.hpp
 ├── lib
 │   └── hello.cpp
-├── LICENSE
-├── README.md
 └── test
     ├── CMakeLists.txt
     └── test_message.cpp
