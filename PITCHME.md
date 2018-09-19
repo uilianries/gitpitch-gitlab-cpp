@@ -71,13 +71,13 @@ What does it need?
 </ul>
 @divend
 
----?image=assets/img/dark-orange.png
+---?image=assets/img/orange-dark.png
 
 #### CPPCHECK
 
 * A static code analysis tool for the C and C++
 
-`cppcheck *.cpp --verbose --enable=all --inconclusive --language=c++ --error-exitcode=1`
+`$ cppcheck *.cpp --verbose --enable=all --inconclusive --language=c++ --error-exitcode=1`
 
 ---?image=assets/img/lego-dark-green.png
 
