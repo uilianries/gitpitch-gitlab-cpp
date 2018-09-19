@@ -220,15 +220,33 @@ doxygen:
 #### STAGES
 
 [x] **Analysis**
-[ ] **Building**
+[ ] **Testing**
 [ ] **Deployment**
 
 ![analysis](assets/img/analysis.png)
 
----?image=assets/img/lego-dark-blue.png
-@title[CppCon 2017]
+---?image=assets/img/purple.png
 
-![bjarne](assets/img/bjarne.png)
+#### Building
+* CMake
+* Conan
+* Gcc
+* Clang
+
+#### Testing
+* Catch2
+* Valgrind
+* gcovr
+
+---?image=assets/img/purple.png
+
+#### CMake ![cmake](assets/img/cmake.png)
+* A application for managing the build process of software
+
+#### Conan ![conan](assets/img/conan.png)
+* A C and C++ Package Manager for Developers
+* Gcc
+* Clang
 
 ---?image=assets/img/lego-dark-blue.png
 
