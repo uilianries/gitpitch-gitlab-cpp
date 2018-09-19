@@ -126,7 +126,7 @@ cppcheck:
 ---?image=assets/img/orange-dark.png
 @title[cppcheck - gitlab CI]
 
- <iframe src="http://showterm.io/7b5f8d42ba021511e627e" width="640" height="480"></iframe>
+![Video](https://showterm.io/7b5f8d42ba021511e627e#fast)
 
 ---?image=assets/img/lego-dark-red.png
 
