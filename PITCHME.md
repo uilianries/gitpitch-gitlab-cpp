@@ -240,10 +240,12 @@ Testing
 
 ---?image=assets/img/purple.png
 
-CMake ![cmake](assets/img/cmake.png)
+![cmake](assets/img/cmake.png)
+#### CMake
 * A application for managing the build process of software
 
-Conan ![conan](assets/img/conan.png)
+![conan](assets/img/conan.png)
+#### Conan.io
 * A C and C++ Package Manager for Developers
 
 ---?image=assets/img/lego-dark-blue.png
