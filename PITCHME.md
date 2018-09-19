@@ -126,7 +126,45 @@ cppcheck:
 ---?image=assets/img/orange-dark.png
 @title[cppcheck - gitlab CI]
 
-![Video](https://showterm.io/7b5f8d42ba021511e627e#fast)
+# TODO - Video CPPCHECK
+
+#### CLANG TIDY
+
+* A clang-based C++ “linter” tool
+<br>
+<br>
+```shell
+$ clang-tidy test.cpp -checks=-*,clang-analyzer-*
+```
+
+#### CLANG TIDY
+@title[clang tidy - gitlab recipe]
+
+.gitlab-ci.yml
+
+```yaml
+clang-tidy:
+  image: base/archlinux:2018.09.01
+  variables:
+    CC: clang
+    CXX: clang++
+  before_script:
+    - pacman -Syu --needed --noconfirm clang-tools-extra=6.0.1-2
+    - clang-tidy --version
+  script:
+    - clang-tidy -warnings-as-errors="*" -checks="-*,clang-analyzer-*,-clang-analyzer-alpha*" lib/hello.cpp -- -Iinclude
+```
+
+@[1-1]
+@[2-2]
+@[3-5]
+@[6-8]
+@[9-10]
+
+---?image=assets/img/orange-dark.png
+@title[cppcheck - gitlab CI]
+
+# TODO - Video CLANG TIDY
 
 ---?image=assets/img/lego-dark-red.png
 
