@@ -76,9 +76,10 @@ What does it need?
 #### CPPCHECK
 
 * A static code analysis tool for the C and C++
-
+<br>
+<br>
 ```shell
-$ cppcheck *.cpp --verbose --enable=all --inconclusive --language=c++ --error-exitcode=1
+$ cppcheck *.cpp --enable=all --language=c++
 ```
 
 ---?image=assets/img/lego-dark-green.png
