@@ -240,20 +240,14 @@ Testing
 
 ---?image=assets/img/purple.png
 
-@div[left-20]
-![cmake](assets/img/cmake.png) **CMake**
-@divend
-@div[right-80]
-@divend
+![cmake](assets/img/cmake.png)
+![conan](assets/img/conan.png)
+
+**CMake**
 * A application for managing the build process of software
 <br>
-<br>
-@div[left-20]
-![conan](assets/img/conan.png)
-@divend
-@div[right-80]
+
 **Conan**
-@divend
 * A C and C++ Package Manager for Developers
 
 ---?image=assets/img/lego-dark-blue.png
