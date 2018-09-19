@@ -211,40 +211,19 @@ doxygen:
 
 ---?image=assets/img/green.png
 
-#### Doxygen
+#### DOXYGEN
 
 ![doxygen](assets/img/doxygen.png)
 
-##### How to avoid *externals* in your project
+---?image=assets/img/purple.png
 
----?image=assets/img/lego-dark-green.png
+#### STAGES
 
-#### POPULAR PACKAGE MANAGERS
+[x] Analysis
+[ ] Building
+[ ] Deployment
 
-@div[left-50]
-<br>
-<ul>
-  <li>Python</li>
-  <ul>
-    <li>pip, Conda</li>
-  </ul>
-  <li>Rust</li>
-  <ul>
-    <li>Cargo</li>
-  </ul>
-  <li>Java</li>
-  <ul>
-    <li>Maven</li>
-  </ul>
-  <li>JavaScript</li>
-  <ul>
-    <li>npm</li>
-  </ul>
-</ul>
-@divend
-@div[right-50]
-![languages](assets/img/languages.png)
-@divend
+![analysis](assets/img/analysis.png)
 
 ---?image=assets/img/lego-dark-blue.png
 @title[CppCon 2017]
