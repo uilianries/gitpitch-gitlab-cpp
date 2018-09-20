@@ -39,8 +39,10 @@ Work at **@khomp**
 
 Jun 4, 2018
 
+---?image=assets/img/gitlab-background-moving.png
+
 ---?image=assets/img/purple.png
-@title[Agenda]
+@title[gitlab]
 
 #### GITLAB
 
