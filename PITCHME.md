@@ -69,6 +69,21 @@ issue-tracking and CI/CD pipeline features.
 
 ![arch](assets/img/ci-cd-architecture.png)
 
+---?image=assets/img/orange-dark.png
+
+#### GITLAB RUNNER
+
+* GitLab Runner preforms the actual build
+* It can run on any platform
+* It can test any programming language
+* Support Docker, including auto scaling and multiple jobs concurrently
+
+---?image=assets/img/orange-dark.png
+
+#### PIPELINE
+
+![pepiline](assets/img/pipeline.png)
+
 ---?image=assets/img/purple.png
 @title[A New Project]
 
