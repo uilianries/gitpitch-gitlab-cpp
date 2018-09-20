@@ -339,10 +339,9 @@ build-gcc7:
 
 #### COVERAGE
 
-![coverage](assets/img/coverage.png)
-
 ![gitlab-coverage](assets/img/gitlab-coverage.png)
 
+![coverage](assets/img/coverage.png)
 
 ---?image=assets/img/lego-dark-blue.png
 
