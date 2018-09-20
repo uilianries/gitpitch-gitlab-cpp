@@ -347,17 +347,59 @@ build-gcc7:
 
 #### STAGES
 
-[x] **Analysis**
+[X] **Analysis**
 [X] **Testing**
 [ ] **Deployment**
 
 ![analysis](assets/img/building.png)
+
+---?image=assets/img/green.png
+
+#### DEPLOYING
+
+* Download the project as a package
+* Use CPack to generate .DEB package
+* Upload package to Bintray
+
+---?image=assets/img/green.png
+
+#### ![bintray](assets/img/bintray-logo.png)
+
+* Bintray offers native support for all major package formats
+
+---?image=assets/img/green.png
+
+```yaml
+deploy-bintray:
+    image: lasote/conangcc7
+    before_script:
+      - sudo apt update
+      - sudo apt install -y --no-install-recommends curl
+    script:
+      - cd build
+      - cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF
+      - cmake --build .
+      - cpack -G DEB .
+    after_script:
+      - curl -T build/hello-0.1.0.deb -uuilianries:${BINTRAY_API_KEY} "https://api.bintray.com/content/uilianries/dpkg/hello/0.1.0/pool/main/h/hello/hello_0.1.0_amd64.deb;deb_distribution=testing;deb_component=main;deb_architecture=i386,amd64;publish=1"
+    artifacts:
+      paths:
+        - build/*.deb
+```
+
+@[1-1]
+@[2-2]
+@[3-5]
+@[6-10]
+@[11-12]
+@[13-15]
 
 ---?image=assets/img/gitlab-background-black.png
 
 #### REFERENCES
 
 * https://gitlab.com/uilianries/native-floripa
+* https://bintray.com/uilianries/dpkg/hello
 * https://github.com/conan-io/conan
 * https://github.com/bincrafters/conan-catch2
 * https://docs.gitlab.com/ee/ci/yaml
