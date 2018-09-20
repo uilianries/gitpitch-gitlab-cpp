@@ -408,8 +408,6 @@ deploy-bintray:
 
 [DEMO](https://gitlab.com/uilianries/native-floripa/pipelines/30672693)
 
----?image=assets/img/gitlab-background-black.png
-
 ---?image=assets/img/green.png
 
 #### CONCLUSION
@@ -417,6 +415,8 @@ deploy-bintray:
 * C and C++ is not just about language standard
 * There are a lot of FOSS tools
 * Gitlab is a good opportunity to standardize your environment
+
+---?image=assets/img/gitlab-background-black.png
 
 #### REFERENCES
 
