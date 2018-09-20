@@ -31,19 +31,6 @@ Work at **@khomp**
 ---?image=assets/img/vaga-khomp.png
 @title[Khomp]
 
----?image=assets/img/purple.png
-@title[Agenda]
-
-#### AGENDA
-
-* Rise of the Fox
-* Sobre Gitlab
-* Gitlab CI
-* Projeto C++
-* Analisar + Doxygen
-* Compilar + Test
-* Deploy + Upload
-
 ---?image=assets/img/gitlab-cover.png
 
 ### RISE OF THE FOX
@@ -52,7 +39,13 @@ Work at **@khomp**
 
 Jun 4, 2018
 
----?image=assets/img/gitlab-background-moving.png
+---?image=assets/img/purple.png
+@title[Agenda]
+
+#### GITLAB
+
+GitLab is a web-based Git-repository manager with wiki,
+issue-tracking and CI/CD pipeline features.
 
 ---?image=assets/img/purple.png
 @title[A New Project]
