@@ -276,16 +276,26 @@ $ cmake --build . --target coverage
 
 ---?image=assets/img/purple.png
 
-#### ADDING TESTS
+```yaml
+build-gcc7:
+    image: lasote/conangcc7
+    before_script:
+      - sudo apt update
+      - sudo apt install gcovr
+    script:
+      - mkdir -p build && cd build
+      - conan install ..
+      - cmake ..
+      - cmake --build .
+      - cmake --build . --target test
+      - cmake --build . --target memcheck
+      - cmake --build . --target coverage
+```
 
-```
-$ mkdir build && cd build
-$ conan install ..
-$ cmake .. -DCMAKE_BUILD_TYPE=Debug
-$ cmake --build . --target test
-$ cmake --build . --target memcheck
-$ cmake --build . --target coverage
-```
+@[1-1]
+@[2-2]
+@[3-5]
+@[6-12]
 
 ---?image=assets/img/purple.png
 
