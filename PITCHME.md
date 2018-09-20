@@ -244,7 +244,7 @@ doxygen:
 
 ![cmake](assets/img/cmake.png)
 ![conan](assets/img/conan.png)
-![conan](assets/img/catch.png)
+![catch2](assets/img/catch.png)
 
 #### CMake
 * A application for managing the build process of software
