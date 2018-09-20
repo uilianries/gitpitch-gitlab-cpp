@@ -227,25 +227,24 @@ doxygen:
 
 ---?image=assets/img/purple.png
 
-@div[left-50]
 #### Building
 * CMake
 * Conan
 * Gcc
 * Clang
-@divend
 
-@div[left-50]
-Testing
+---?image=assets/img/purple.png
+
+### Testing
 * Catch2
 * Valgrind
 * gcovr
-@divend
 
 ---?image=assets/img/purple.png
 
 ![cmake](assets/img/cmake.png)
 ![conan](assets/img/conan.png)
+![conan](assets/img/catch.png)
 
 #### CMake
 * A application for managing the build process of software
@@ -253,9 +252,10 @@ Testing
 
 #### Conan
 * A C and C++ Package Manager for Developers
+<br>
 
 #### Catch2
-* A modern, C++-native, header-only, test framework for unit-tests
+* A modern header-only, test framework for unit-tests
 
 ---?image=assets/img/purple.png
 
@@ -292,6 +292,10 @@ $ cmake --build . --target test
 $ cmake --build . --target memcheck
 $ cmake --build . --target coverage
 ```
+
+---?image=assets/img/purple.png
+
+![video-cppcheck](https://www.youtube.com/embed/_NVkj-Py0Jw)
 
 ---?image=assets/img/lego-dark-blue.png
 
