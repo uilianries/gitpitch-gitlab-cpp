@@ -404,7 +404,7 @@ deploy-bintray:
 
 ---?image=assets/img/green.png
 
-![demo](assets/img/live-demo.png)
+![demo](assets/img/live-demo.jpg)
 
 [DEMO](https://gitlab.com/uilianries/native-floripa/pipelines/30672693)
 
