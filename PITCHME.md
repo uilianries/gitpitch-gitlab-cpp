@@ -84,6 +84,15 @@ issue-tracking and CI/CD pipeline features.
 
 ![pepiline](assets/img/pipeline.png)
 
+---?image=assets/img/orange-dark.png
+
+#### CONFIGURATION FILE
+
+* .gitlab-ci.yml
+* YAML format
+* Add file to the root directory of your repository
+* Configure a Runner
+
 ---?image=assets/img/purple.png
 @title[A New Project]
 
