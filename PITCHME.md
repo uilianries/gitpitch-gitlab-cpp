@@ -57,13 +57,17 @@ issue-tracking and CI/CD pipeline features.
 
 ---?image=assets/img/purple.png
 
-#### Entire DevOps lifecycle
+#### ARCHITECTURE
 
-* Build your application using GitLab Runners
-* Run unit and integration tests to check if your code is valid
-* Look at a live preview of your development branch with Review Apps before merging into stable
-* Deploy to multiple environments like staging and production, and support advanced features such as canary deployments
-* Monitor performances and status of your application
+* GitLab CI/CD manages projects/builds
+* GitLab Runner is an application which processes builds
+* You need at least one GitLab instance and one GitLab Runner.
+
+---?image=assets/img/purple.png
+
+#### ARCHITECTURE
+
+![arch](assets/img/ci-cd-architecture.png)
 
 ---?image=assets/img/purple.png
 @title[A New Project]
