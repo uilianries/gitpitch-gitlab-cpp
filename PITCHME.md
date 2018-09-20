@@ -307,6 +307,12 @@ build-gcc7:
 
 ---?image=assets/img/purple.png
 
+#### CODE COVERAGE
+
+* Add code coverage result for Download
+
+---?image=assets/img/purple.png
+
 ```yaml
 build-gcc7:
     image: lasote/conangcc7
@@ -334,6 +340,9 @@ build-gcc7:
 #### COVERAGE
 
 ![coverage](assets/img/coverage.png)
+
+![gitlab-coverage](assets/img/gitlab-coverage.png)
+
 
 ---?image=assets/img/lego-dark-blue.png
 
