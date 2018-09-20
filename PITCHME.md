@@ -394,6 +394,14 @@ deploy-bintray:
 @[11-12]
 @[13-15]
 
+---?image=assets/img/green.png
+
+![video-cppcheck](https://www.youtube.com/embed/yKmpW_Av_U4)
+
+---?image=assets/img/green.png
+
+![bintray](assets/img/bintray-hello.png)
+
 ---?image=assets/img/gitlab-background-black.png
 
 #### REFERENCES
