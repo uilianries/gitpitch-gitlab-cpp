@@ -353,7 +353,7 @@ build-gcc7:
 
 ![analysis](assets/img/building.png)
 
----?image=assets/img/gitlab-background.png
+---?image=assets/img/gitlab-background-black.png
 
 #### REFERENCES
 
@@ -362,7 +362,7 @@ build-gcc7:
 * https://github.com/bincrafters/conan-catch2
 * https://docs.gitlab.com/ee/ci/yaml
 
----?image=assets/img/gitlab-background.png
+---?image=assets/img/gitlab-background-black.png
 
 ### THANK YOU!
 
