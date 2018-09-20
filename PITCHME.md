@@ -343,6 +343,16 @@ build-gcc7:
 
 ![coverage](assets/img/coverage.png)
 
+---?image=assets/img/purple.png
+
+#### STAGES
+
+[x] **Analysis**
+[X] **Testing**
+[ ] **Deployment**
+
+![analysis](assets/img/building.png)
+
 ---?image=assets/img/lego-dark-blue.png
 
 #### C++ UNIVERSE
