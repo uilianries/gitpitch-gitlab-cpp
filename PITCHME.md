@@ -246,17 +246,10 @@ doxygen:
 ![conan](assets/img/conan.png)
 ![catch2](assets/img/catch.png)
 
-#### CMake
-A application for managing the build process of software
-<br>
-
-#### Conan
-A C and C++ Package Manager for Developers
-<br>
-
-#### Catch2
-A modern header-only, test framework for unit-tests
-<br>
+#### CMake + Conan + Catch2
+* A application for managing the build process of software
+* A C and C++ Package Manager for Developers
+* A modern header-only, test framework for unit-tests
 
 ---?image=assets/img/purple.png
 
