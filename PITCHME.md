@@ -363,7 +363,7 @@ build-gcc7:
 
 ---?image=assets/img/green.png
 
-#### ![bintray](assets/img/bintray-logo.png)
+![bintray](assets/img/bintray-logo.png)
 
 * Bintray offers native support for all major package formats
 
