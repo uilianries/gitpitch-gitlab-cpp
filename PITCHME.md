@@ -305,6 +305,36 @@ build-gcc7:
 
 ![video-cppcheck](https://www.youtube.com/embed/_NVkj-Py0Jw)
 
+---?image=assets/img/purple.png
+
+```yaml
+build-gcc7:
+    image: lasote/conangcc7
+    before_script:
+      - sudo apt update
+      - sudo apt install gcovr
+    script:
+      - mkdir -p build && cd build
+      - conan install ..
+      - cmake ..
+      - cmake --build .
+      - cmake --build . --target test
+      - cmake --build . --target memcheck
+      - cmake --build . --target coverage
+    artifacts:
+      paths:
+        - build/coverage/
+        - build/test/Testing/Temporary/
+```
+
+@[14-17]
+
+---?image=assets/img/purple.png
+
+#### COVERAGE
+
+![coverage](assets/img/coverage.png)
+
 ---?image=assets/img/lego-dark-blue.png
 
 #### C++ UNIVERSE
