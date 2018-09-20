@@ -410,6 +410,14 @@ deploy-bintray:
 
 ---?image=assets/img/gitlab-background-black.png
 
+---?image=assets/img/green.png
+
+#### CONCLUSION
+
+* C and C++ is not just about language standard
+* There are a lot of FOSS tools
+* Gitlab is a good opportunity to standardize your environment
+
 #### REFERENCES
 
 * https://gitlab.com/uilianries/native-floripa
