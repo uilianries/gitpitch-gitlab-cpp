@@ -402,6 +402,12 @@ deploy-bintray:
 
 ![bintray](assets/img/bintray-hello.png)
 
+---?image=assets/img/green.png
+
+![demo](assets/img/live-demo.png)
+
+[DEMO](https://gitlab.com/uilianries/native-floripa/pipelines/30672693)
+
 ---?image=assets/img/gitlab-background-black.png
 
 #### REFERENCES
