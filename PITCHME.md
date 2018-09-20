@@ -416,7 +416,7 @@ deploy-bintray:
 * There are a lot of FOSS tools
 * Gitlab is a good opportunity to standardize your environment
 
----?image=assets/img/gitlab-background-black.png
+---?image=assets/img/purple.png
 
 #### REFERENCES
 
@@ -426,7 +426,7 @@ deploy-bintray:
 * https://github.com/bincrafters/conan-catch2
 * https://docs.gitlab.com/ee/ci/yaml
 
----?image=assets/img/gitlab-background-black.png
+---?image=assets/img/purple.png
 
 ### THANK YOU!
 
