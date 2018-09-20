@@ -166,7 +166,7 @@ clang-tidy:
 ---?image=assets/img/red.png
 @title[clang tidy - gitlab CI]
 
-# TODO - Video CLANG TIDY
+![video-cppcheck](https://www.youtube.com/embed/XPRjyEVPVbQ)
 
 ---?image=assets/img/green.png
 #### DOXYGEN
@@ -207,7 +207,7 @@ doxygen:
 ---?image=assets/img/green.png
 @title[doxygen - gitlab CI]
 
-# TODO - Video Doxygen
+![video-cppcheck](https://www.youtube.com/embed/fNpjDxgxDg4)
 
 ---?image=assets/img/green.png
 
@@ -253,6 +253,45 @@ Testing
 
 #### Conan
 * A C and C++ Package Manager for Developers
+
+#### Catch2
+* A modern, C++-native, header-only, test framework for unit-tests
+
+---?image=assets/img/purple.png
+
+#### HOW TO BUILD
+
+```
+$ mkdir build && cd build
+$ cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTS=OFF
+$ cmake --build .
+```
+
+---?image=assets/img/purple.png
+
+#### ADDING TESTS
+
+```
+$ mkdir build && cd build
+$ conan install ..
+$ cmake .. -DCMAKE_BUILD_TYPE=Debug
+$ cmake --build . --target test
+$ cmake --build . --target memcheck
+$ cmake --build . --target coverage
+```
+
+---?image=assets/img/purple.png
+
+#### ADDING TESTS
+
+```
+$ mkdir build && cd build
+$ conan install ..
+$ cmake .. -DCMAKE_BUILD_TYPE=Debug
+$ cmake --build . --target test
+$ cmake --build . --target memcheck
+$ cmake --build . --target coverage
+```
 
 ---?image=assets/img/lego-dark-blue.png
 
