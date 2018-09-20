@@ -227,7 +227,7 @@ doxygen:
 
 ---?image=assets/img/purple.png
 
-#### Building
+#### BUILDING
 * CMake
 * Conan
 * Gcc
@@ -235,7 +235,7 @@ doxygen:
 
 ---?image=assets/img/purple.png
 
-### Testing
+#### TESTING
 * Catch2
 * Valgrind
 * gcovr
@@ -256,6 +256,7 @@ doxygen:
 
 #### Catch2
 * A modern header-only, test framework for unit-tests
+<br>
 
 ---?image=assets/img/purple.png
 
