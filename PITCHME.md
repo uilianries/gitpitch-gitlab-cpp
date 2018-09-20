@@ -63,7 +63,7 @@ issue-tracking and CI/CD pipeline features.
 * GitLab Runner is an application which processes builds
 * You need at least one GitLab instance and one GitLab Runner.
 
----?image=assets/img/dark-orange.png
+---?image=assets/img/orange-dark.png
 
 #### ARCHITECTURE
 
