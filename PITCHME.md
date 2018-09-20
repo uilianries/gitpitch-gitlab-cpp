@@ -50,6 +50,12 @@ GitLab is a web-based Git-repository manager with wiki,
 issue-tracking and CI/CD pipeline features.
 
 ---?image=assets/img/purple.png
+
+#### GITLAB CI
+
+![gitlab-ci](assets/img/gitlab-ci.png)
+
+---?image=assets/img/purple.png
 @title[A New Project]
 
 Let's start a new C++ project!
