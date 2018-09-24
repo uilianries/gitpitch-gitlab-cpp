@@ -1,6 +1,6 @@
 ## Gitlab
 
-#### Construindo aplicações C++ com Gitlab
+#### Creating C++ applications with Gitlab CI
 
 ![gitlab](assets/img/gitlab-logo.png)
 
